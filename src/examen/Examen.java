@@ -113,8 +113,8 @@ private JTextField tiempo;
                 if(tiempo.getText().length()==0){
                     calvelocidad = Integer.parseInt(velocidad.getText());
                     caldistancia = Integer.parseInt(distancia.getText());
-                    tdistancia = caldistancia/calvelocidad;
-                    JOptionPane.showMessageDialog(null,"La distancia es: "+tdistancia);
+                    ttiempo = caldistancia/calvelocidad;
+                    JOptionPane.showMessageDialog(null,"El tiempo es: "+ttiempo);
                     
                 }
             }
